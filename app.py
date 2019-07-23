@@ -6,7 +6,7 @@ import cryptography
 username = getpass.getuser()
 
 connection = pymysql.connect(
-    host='localhost', user='root', password='conoroshea1996', db='Chinook')
+    host='localhost', user='root', password='', db='Chinook')
 
 
 try:
